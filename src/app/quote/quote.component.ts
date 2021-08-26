@@ -17,7 +17,11 @@ export class QuoteComponent implements OnInit {
 toggleDetails(index: any){
     this.quotes[index].showDescription = !this.quotes[index].showDescription;
   }
-
+readQuote(isRead: any, index: number){
+    if (isRead) {
+      this.quotes.splice(index,1);
+    }
+  }
 
   constructor() { }
 
