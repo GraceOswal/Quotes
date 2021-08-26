@@ -8,11 +8,11 @@ import { Quote } from '../quote';
 })
 export class QuoteComponent implements OnInit {
   quotes:Quote[]=[
-    {id:1, name:'Having a soft heart is not weakness,its courage'},
-    {id:2,name:'On the other side of fear lies freedom'},
-    {id:3,name:'Live life to express not to impress'},
-    {id:4,name:'Work for a cause not applause'},
-    {id:5,name:'Limits like fears are often just an illusion'},
+    {id:1, name:'Wendy',quote:'Having a soft heart is not weakness,its courage',author: 'Grace', showInfo:'Courage'},
+    {id:2,name:'Richard',quote:'On the other side of fear lies freedom',author: 'Nelson',showInfo:'Freedom'},
+    {id:3,name:'Suzan',quote:'Live life to express not to impress',author: 'Meghan M' ,showInfo:'Self-discipline'},
+    {id:4,name:'Maureen',quote:'Work for a cause not applause', author: 'Limumba P',showInfo:'Determination'},
+    {id:5,name:'Kimathi',quote:'Limits like fears are often just an illusion',author:'Michael J', showInfo: 'Brave'},
   
   ];
 
