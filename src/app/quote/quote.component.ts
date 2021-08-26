@@ -23,6 +23,12 @@ readQuote(isRead: any, index: number){
     }
   }
 
+  addNewQuote(quote:any){
+    let quoteLength = this.quotes.length;
+    quote.id = quoteLength+1;
+    quote.postedDate = new Date(quote.postedDate)
+    this.quotes.push(quote)
+  }
   constructor() { }
 
   ngOnInit() {
