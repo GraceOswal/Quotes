@@ -4,7 +4,7 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
 
 ## Author
 
-[Grace Osswal] (<https://github.com/GraceOswal/Quotes.git>)
+[Grace Osswal] (<https://GraceOswal.github.io/Quotes/>>)
 
 ## Description
 
@@ -13,6 +13,8 @@ This is my first Angular/Cli project application called 'Quotes' that emits quot
 ## Live Page
 
 <https://GraceOswal.github.io/Quotes/>
+
+local host <http://localhost:4200/>
 
 ## Installation Process
 
